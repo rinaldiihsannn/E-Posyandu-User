@@ -1,6 +1,6 @@
 #E-Posyandu User
 
-cara pakai:
+cara pakaii:
 
 1. pastikan di laptop sudah terinstall node.js dan git bash
 2. buka folder e-posyandu user
