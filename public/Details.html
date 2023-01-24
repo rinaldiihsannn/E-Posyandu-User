@@ -24,9 +24,7 @@
         <div class="absolute mt-56 tablet:mt-0 tablet:relative bg-white tablet:bg-transparent rounded-md hidden w-full tablet:block tablet:w-auto" id="navbar-dropdown">
           <ul class="flex flex-col p-2 mt-2 tablet:flex-row tablet:space-x-8 tablet:mt-0 tablet:text-sm tablet:font-medium tablet:border-0">
             <li>
-              <a href="Dashboard.html" class="block py-2 pl-3 pr-4 text-slate-700 tablet:text-white text-base tablet:bg-transparenttablet:p-0 tablet:hover:underline tablet:hover:font-bold" aria-current="page"
-                >Dashboard</a
-              >
+              <a href="Dashboard.html" class="block py-2 pl-3 pr-4 text-slate-700 tablet:text-white text-base tablet:bg-transparent tablet:p-0 tablet:hover:underline tablet:hover:font-bold" aria-current="page">Dashboard</a>
             </li>
             <li>
               <button
@@ -61,22 +59,80 @@
     </nav>
     <!-- Akhir Navbar -->
 
-    <!-- Content  -->
-    <div class="mt-8 mx-auto p-3 tablet:flex tablet:items-center tablet:p-8 tablet:mt-10 tablet:mb-14 tablet:mx-24">
-      <div class="tablet:flex-auto tablet:ml-6 tablet:mr-10 tablet:basis-1/2">
-        <h1 class="font-bold text-white mb-3 text-xl tablet:text-5xl tablet:mb-5">E-Posyandu</h1>
-        <p class="text-sm text-justify mb-5 pr-4 tablet:text-base text-white">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
-        </p>
+    <!-- tabel -->
+    <div class="handphone:mx-3 handphone mt-10 tablet:mt-10 tablet:mx-10 tabel">
+      <h1 class="text-white text-center text-2xl font-bold mb-6">Data Perkembangan Bayi</h1>
+      <!-- form Search -->
+      <div class="max-w-md">
+        <div class="static flex items-center h-12 w-full rounded-lg focus-within:shadow-lg bg-white overflow-hidden">
+          <div class="grid place-items-center h-12 w-12 text-gray-300">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+            </svg>
+          </div>
+
+          <input class="peer h-12 w-full border-none text-sm text-gray-700 pr-2" type="text" id="search" placeholder="Search" />
+          <button class="h-12 bg-grad-purple text-white text-xs px-3">Search</button>
+        </div>
       </div>
-      <div class="tablet:flex-auto tablet:basis-2/5">
-        <img src="../src/img/Dokter-Anak.png" alt="" />
+      <!-- Akhir form Seacrh -->
+      <h2 class="text-white text-left text-xl font-semibold mb-3 mt-5 tablet:mt-8">Riwayat Perkembangan</h2>
+      <div class="static overflow-x-auto handphone:rounded-md mt-3 tablet:mt-6">
+        <table class="w-full text-sm shadow-lg text-left text-gray-500 dark:text-gray-400">
+          <thead class="text-xs text-center text-white bg-grad-blue">
+            <tr>
+              <th scope="col" class="px-2 py-1">No</th>
+              <th scope="col" class="px-2 py-1">No. KK</th>
+              <th scope="col" class="px-3 py-1">Nama Bayi</th>
+              <th scope="col" class="py-1">Jenis Kelamin</th>
+              <th scope="col" class="px-2 py-1">Tanggal Lahir</th>
+              <th scope="col" class="px-2 py-1">Bulan Pengukuran</th>
+              <th scope="col" class="px-2 py-1">Berat</th>
+              <th scope="col" class="px-2 py-1">Tinggi</th>
+            </tr>
+          </thead>
+          <tbody class="text-slate-800 font-medium">
+            <tr class="text-center bg-white border-b">
+              <td class="px-2 py-1">1</td>
+              <td class="text-left px-2 py-1">123456</td>
+              <td class="text-left px-3 py-1">Rinaldi Ihsan</td>
+              <td class="py-1">L</td>
+              <td class="px-2 py-1">13-08-2022</td>
+              <td class="px-2 py-1">13-09-2022</td>
+              <td class="px-2 py-1">782</td>
+              <td class="px-2 py-1">56</td>
+            </tr>
+          </tbody>
+        </table>
       </div>
+      <!-- Riwayat Vaksin -->
+      <h2 class="text-white text-left text-xl font-semibold mb-3 mt-5 tablet:mt-12">Riwayat Vaksin</h2>
+      <div class="static overflow-x-auto handphone:rounded-md mt-2 tablet:mt-3 mb-4">
+        <table class="w-full text-sm shadow-lg text-left text-gray-500 dark:text-gray-400">
+          <thead class="text-xs text-center text-white bg-emerald-500">
+            <tr>
+              <th scope="col" class="px-2 py-1">No</th>
+              <th scope="col" class="px-2 tablet:px-36 py-1">Nama Vaksin</th>
+              <th scope="col" class="px-2 py-1">Tanggal Vaksin</th>
+            </tr>
+          </thead>
+          <tbody class="text-slate-800 font-medium">
+            <tr class="bg-white border-b">
+              <td class="text-center px-2 py-1">1</td>
+              <td class="px-2 py-1">Campak</td>
+              <td class="text-center px-2 py-1">13-09-2022</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <button class="bg-grad-blue text-white font-semibold px-4 py-1 rounded-lg">Unduh Data</button>
+      <!-- chart/grafik -->
     </div>
+    <!-- Akhir Tabel -->
+
     <!-- footer -->
     <footer>Copyright E-Posyandu 2022</footer>
     <!-- footer -->
-
     <script src="../node_modules/flowbite/dist/flowbite.min.js"></script>
   </body>
 </html>
