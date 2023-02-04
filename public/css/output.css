@@ -925,11 +925,6 @@ input[type="range"]::-ms-fill-lower {
   margin-right: 1.5rem;
 }
 
-.mx-3 {
-  margin-left: 0.75rem;
-  margin-right: 0.75rem;
-}
-
 .mt-4 {
   margin-top: 1rem;
 }
@@ -1004,14 +999,6 @@ input[type="range"]::-ms-fill-lower {
 
 .mb-7 {
   margin-bottom: 1.75rem;
-}
-
-.ml-4 {
-  margin-left: 1rem;
-}
-
-.ml-20 {
-  margin-left: 5rem;
 }
 
 .block {
@@ -1162,6 +1149,11 @@ input[type="range"]::-ms-fill-lower {
   background-color: rgb(44 116 179 / var(--tw-bg-opacity));
 }
 
+.bg-green-600 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(5 122 85 / var(--tw-bg-opacity));
+}
+
 .bg-grad-purple {
   --tw-bg-opacity: 1;
   background-color: rgb(2 171 208 / var(--tw-bg-opacity));
@@ -1172,9 +1164,14 @@ input[type="range"]::-ms-fill-lower {
   background-color: rgb(16 185 129 / var(--tw-bg-opacity));
 }
 
-.bg-green-600 {
+.bg-emerald-900 {
   --tw-bg-opacity: 1;
-  background-color: rgb(5 122 85 / var(--tw-bg-opacity));
+  background-color: rgb(6 78 59 / var(--tw-bg-opacity));
+}
+
+.bg-emerald-700 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(4 120 87 / var(--tw-bg-opacity));
 }
 
 .bg-gradient-to-r {
@@ -1420,6 +1417,11 @@ input[type="range"]::-ms-fill-lower {
 .hover\:bg-teal-600:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(4 116 129 / var(--tw-bg-opacity));
+}
+
+.hover\:bg-emerald-800:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(6 95 70 / var(--tw-bg-opacity));
 }
 
 .hover\:px-14:hover {
