@@ -1164,11 +1164,6 @@ input[type="range"]::-ms-fill-lower {
   background-color: rgb(16 185 129 / var(--tw-bg-opacity));
 }
 
-.bg-emerald-900 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(6 78 59 / var(--tw-bg-opacity));
-}
-
 .bg-emerald-700 {
   --tw-bg-opacity: 1;
   background-color: rgb(4 120 87 / var(--tw-bg-opacity));
