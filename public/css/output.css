@@ -1533,6 +1533,11 @@ input[type="range"]::-ms-fill-lower {
     margin-right: 5rem;
   }
 
+  .tablet\:mx-4 {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
   .tablet\:ml-96 {
     margin-left: 24rem;
   }
