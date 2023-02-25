@@ -1523,6 +1523,11 @@ input[type="range"]::-ms-fill-lower {
     margin-right: 2.5rem;
   }
 
+  .tablet\:mx-4 {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
   .tablet\:mx-auto {
     margin-left: auto;
     margin-right: auto;
@@ -1531,11 +1536,6 @@ input[type="range"]::-ms-fill-lower {
   .tablet\:mx-20 {
     margin-left: 5rem;
     margin-right: 5rem;
-  }
-
-  .tablet\:mx-4 {
-    margin-left: 1rem;
-    margin-right: 1rem;
   }
 
   .tablet\:ml-96 {
